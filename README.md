@@ -1,14 +1,14 @@
-# Project Title (This is a template README.md file that you can adapt to your project)
+# Seattle Weather Project (This is a template README.md file that you can adapt to your project)
 
-> A brief description of what the project does and its purpose.
+> This project analyzes differences in precipitation data between one station Seattle and a singular station in either Washington D.C./Pittsburgh/Denver.
 
 ---
 
 ## Project Overview
 
-Provide a short and concise overview of the project. Mention the problem it solves, the data used, and the key outcomes or findings.
+Provide a short and concise overview of the project. We are looking to solve the problem of knowing if it rains more in Seattle over a four year time period compared to another US city. We used precipitation data from NCEI in the timeframe of 01/01/2018-12/31/2022. **To be determined** the key outcomes or findings.
 
-- **Objective:** Clearly state the main goal of the project.
+- **Objective:** Compare precipitation differences between two US cities between the time frame of 01/01/2018-12/31/2022.
 - **Domain:** (e.g., Healthcare, Finance, E-commerce, etc.)
 - **Key Techniques:** (e.g., Regression, Classification, Clustering, NLP, Time Series)
 
@@ -28,7 +28,7 @@ Provide a short and concise overview of the project. Mention the problem it solv
 
 ## Data
 
-- **Source:** Link to the data source(s) 
+- **Source:** Link to the data source(s). [Seattle](data/seattle_rain.csv). [STL](data/stl_rain.csv). [DC](data/dc_rain.csv). [Pittsburgh](data/pittsburgh_rain.csv). [Denver](data/denver_rain.csv).
 - **Description:** Brief overview of the dataset features, size, and format
 - **License:** (if applicable)
 
