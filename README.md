@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-Provide a short and concise overview of the project. We are looking to solve the problem of knowing if it rains more in Seattle over a four year time period compared to another US city. We used precipitation data from NCEI in the timeframe of 01/01/2018-12/31/2022. **To be determined** the key outcomes or findings.
+Provide a short and concise overview of the project. We are looking to solve the problem of knowing if it rains more in Seattle over a four year time period compared to another US city. We used precipitation data from NCEI in the timeframe of 01/01/2018-12/31/2022. The key findings from this project were that it rains significantly more in Seattle in November-January, and it rains significantly more in Pittsburgh in the months of July and August. 
 
 - **Objective:** Compare precipitation differences between two US cities between the time frame of 01/01/2018-12/31/2022.
 - **Domain:** conservation/weather
@@ -38,7 +38,9 @@ Provide a short and concise overview of the project. We are looking to solve the
 
 ## Analysis
 
-THe weather data was collected from the CCOA website, and was then imported into the JupyterLab workbook. From there, we analyzed the data and differences between the two datasets. 
+[Code](https://github.com/CameronMangione/weather/blob/main/code/Seattle_Pittsburgh_Weather_Data.ipynb)
+
+The weather data was collected from the CCOA website, and was then imported into the JupyterLab workbook. From there, we analyzed the data and differences between the two datasets. 
 We discovered that Seattle had 190 missing datapoints, and we needed to find a way to replace and update them.
 To solve this issue, we imputated the missing datapoints by calculating the mean for each day of the year for Seattle, and applied the day of year mean to the Nan points in the dataset to clean the data.
 We analyzed the data based on mean precipitation levels, the proportion of prercipitation per day in each city, and also calculated the five quartiles for median analysis in our boxplots.
