@@ -1,4 +1,4 @@
-# Seattle Weather Project (This is a template README.md file that you can adapt to your project)
+# Seattle Weather Project: Comparing Precipitation Levels in Seattle vs. Pittsburgh
 
 > This project analyzes differences in precipitation data between one station Seattle and a singular station in Pittsburgh.
 
@@ -17,11 +17,13 @@ Provide a short and concise overview of the project. We are looking to solve the
 ## Project Structure
 
 ```
-├── data/                 # Raw and processed data
-├── code/                 # Jupyter notebook and Python script
-├── reports/              # Generated two page with visualization signifance levels with mean monthly precipitation
-├── requirements.txt      # Dependencies
-└── README.md             # Project documentation
+|--- data: Data Folder: https://github.com/CameronMangione/weather/tree/main/data
+           Raw + regular Pittsburgh: https://raw.githubusercontent.com/CameronMangione/weather/refs/heads/main/data/pittsburgh_rain.csv, https://github.com/CameronMangione/weather/blob/main/data/pittsburgh_rain.csv
+           Raw + regular Seattle:https://raw.githubusercontent.com/CameronMangione/weather/refs/heads/main/data/seattle_rain.csv ,https://github.com/CameronMangione/weather/blob/main/data/seattle_rain.csv
+|--- code: https://github.com/CameronMangione/weather/blob/main/code/Seattle_Pittsburgh_Weather_Data.ipynb                 # Jupyter notebook and Python script
+|--- reports: https://github.com/CameronMangione/weather/blob/main/reports/Seattle%20Weather%20Project%20Report.docx           # Generated two page with visualization signifance levels with mean monthly precipitation
+|--- requirements: https://github.com/CameronMangione/weather/blob/main/requirements.txt
+|--- README: https://github.com/CameronMangione/weather/blob/main/README.md
 ```
 
 ---
